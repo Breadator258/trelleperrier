@@ -15,15 +15,15 @@ Ce projet a notamment permis de confirmer la bonne utilisation de nombreuses not
 * SQL / MariaDB  
 
 # Fonctionnalités
-Inscription/Connexion/Deconnexion  
-Ajouter/Supprimer/Partager des listes  
-Notifications de base sur site et par mail  
-Ajouter/Supprimer des tâches  
-Gestion d'amis  
-Gestion de permissions de listes  
-Mode thème clair/sombre  
-Gestion rapide des tâches  
-Filtrage des tâches  
+* Inscription/Connexion/Deconnexion  
+* Ajouter / Supprimer / Partager des listes  
+* Notifications de base sur site et par mail  
+* Ajouter/Supprimer des tâches  
+* Gestion d'amis  
+* Gestion de permissions de listes  
+* Mode thème clair/sombre  
+* Gestion rapide des tâches  
+* Filtrage des tâches  
 
 # Problèmes connus a daté du rendu
 Certains rendus du CSS ne sont pas correctement redimensionnés sur les petits écrans PC (le site n'est PAS responsive).  
