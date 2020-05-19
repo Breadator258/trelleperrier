@@ -1,0 +1,156 @@
+:root{
+    --forestgreen: forestgreen;
+    --darkseagreen: darkseagreen;
+    --CFFFDF: #CFFFDF;
+    --23272A: #23272A;
+    --white: white;
+    --bg-image: url("../images/background.png");
+    --text-color: black;
+    --form-bg-color: white;
+}
+
+[data-theme="dark"]{
+    --forestgreen: forestgreen;
+    --darkseagreen: #23272A;
+    --CFFFDF: #23272A;
+    --23272A: #CFFFDF;
+    --white: #23272A;
+    --bg-image: url("../images/background-dark.png");
+    --text-color: #CFFFDF;
+    --form-bg-color: #23272A;
+}
+
+body{
+    background-image: var(--bg-image);
+    margin: 0;
+}
+
+.button{
+    border-radius: 8px;
+    border: 2px var(--forestgreen) solid;
+    color: var(--darkseagreen);
+    background-color: var(--forestgreen);
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.75);
+}
+.button:hover{
+    border: 2px var(--darkseagreen) solid;
+    color: var(--forestgreen);
+    background-color: var(--darkseagreen);
+}
+
+span{
+    font-family: "Font Awesome 5 Free", sans-serif;
+}
+
+.delete_task, .finish_task, .modify, .fa-arrow-alt-circle-up{
+    cursor: pointer;
+}
+
+#add_friend_to_list_form{
+    display: flex;
+    justify-content: space-around;
+}
+
+#select_permission_form, #add_friend_to_list_response, #manage_permissions{
+    text-align: center;
+}
+
+#manage_permissions{
+    margin-top: 0;
+}
+
+#tasks_in_progress, #finished_tasks{
+    width: 65%;
+    overflow: auto;
+    padding: 0 2% 0 2%;
+    margin: 20px;
+    background-color: var(--CFFFDF);
+    border: var(--23272A) 5px solid;
+    border-radius: 10px;
+}
+
+#tasks_list{
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 10% 0 10%;
+}
+
+#tasks_in_progress_list{
+    margin-top: 8vh;
+    display: block;
+}
+
+#tasks_in_progress i, #finished_tasks i{
+    margin: 5px 2.5px 0 0;
+}
+
+#tasks_in_progress_h2_i{
+    width: 34%;
+    background-color: var(--CFFFDF);
+    height: 7vh;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#tasks_in_progress_h2_i i{
+    font-size: 2em;
+    transform: rotate(45deg);
+}
+
+#remove_task_form{
+    text-align: center;
+    margin-top: 3vh;
+}
+
+#members_list{
+    height: 70%;
+    text-align: center;
+}
+
+#members_list h2{
+    margin: 0;
+}
+
+#members{
+    height: 70%;
+    overflow: auto;
+    text-align: center;
+}
+
+.member{
+    margin: 0 35% 0 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#bottom_action_bar{
+    text-align: center;
+    font-size: 3em;
+}
+#bottom_action_bar i{
+    color: var(--white);
+    cursor: pointer;
+    margin: 0 1% 0 1%;
+}
+
+#add_user_input{
+    width: 100%;
+}
+
+h2, span, i, p, #add_friend_response, #new_notifs, #notifs_historic, #add_friend_to_list_response{
+    color: var(--text-color);
+}
+
+.form, .modal-content{
+    background-color: var(--form-bg-color);
+}
+
+.modal-content label{
+    color: var(--text-color);
+}
