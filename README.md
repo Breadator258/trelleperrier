@@ -2,7 +2,7 @@
 1 mois
 
 # Contexte du projet
-L'objectif était de réaliser un site internet permettant la gestion de listes contenant des tâches. Ressemblant de loin à Padlet.  
+L'objectif était de réaliser un site internet permettant la gestion de listes contenant des tâches. Avec une certaine ressemblance à Padlet.  
 Ce projet a notamment permis de confirmer la bonne utilisation de nombreuses notions.
 
 # Notions abordées
